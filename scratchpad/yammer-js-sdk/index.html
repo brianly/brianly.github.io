@@ -9,5 +9,25 @@
 
 <h1>Test JS SDK</h1>
 
+<script type="text/javascript" data-app-id="Vbix3FllgldWcaJBWdsuFA" src="https://c64.assets-yammer.com/assets/platform_js_sdk.js"></script>
+
+<script type="text/javascript">
+
+yam.getLoginStatus(
+  function(response) {
+    if (response.authResponse) {
+      alert("logged in");
+        console.dir(response); //print user information to the console
+      }
+    else {
+      //authResponse = false if the user is not logged in, or is logged in but hasn't authorized your app yet
+      alert("logged out");
+    }
+  }
+);
+
+</script>
+
+
 </body>
 </html>
