@@ -1,0 +1,49 @@
+<!-- MVP.css quickstart template: https://github.com/andybrewer/mvp/ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="icon" href="https://via.placeholder.com/70x70">
+    <link rel="stylesheet" href="./mvp.css">
+
+    <meta charset="utf-8">
+    <meta name="description" content="My description">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Support for NMARC</title>
+</head>
+
+<body>
+
+    <main>
+
+        <article>
+            <h1>Support for the NMARC (Unofficial) tool</h1>
+            <p>Builds of the NMARC (Unofficial) tool from the Windows Store are <strong>unsupported</strong> and used at your own risk. Issues about the tool can be reported in the <a href="https://github.com/microsoft/nmarc/issues">GitHub issues</a> for the NMARC project and may be addressed in future builds. </p>
+
+            <p>It is recommended that you build and run your own instance of the NMARC tool for the following reasons:</p>
+            <ul>
+                <li>You can audit the source code for yourself.</li>
+                <li>It can run on Windows 7 or places where the Windows Store isn't available.</li>
+            </ul>
+
+            <h1>FAQs</h1>
+            <h3>What does the NMARC tool do?</h3>
+            <p>It takes the alignment report in YAML format and converts it to multiple CSV files. This is important because the CSV files can then be filtered with popular tools like Excel.</p>
+            <h3>Does the tool process my data locally?</h3>
+            <p>Yes. The reason for the NMARC tool is to provide a means for you to convert it into CSV locally. This makes it easier to work with in popular tools, and it means that any company or personally identifiable information in the YAML file is kept on your computer. You should obviously use endpoint protection and other measures to protect both the YAML input file and any CSVs that are created.</p>
+            <h3>Why do you recommend that I build and audit my own version?</h3>
+            <p>Good question. It's an open source tool and I'm not assuming responsibility. You should always use software that your IT team has vetted and meets the requirements of your organization. Building your own version is relatively straightforward because it's a simple Windows Forms application.</p>
+        </article>
+    
+    </main>
+    <footer>
+        <hr>
+        <p>
+            <small>&copy; 2021 Brian Lyttle.</small>
+        </p>
+    </footer>
+</body>
+
+</html>
